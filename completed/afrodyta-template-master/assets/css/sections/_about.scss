@@ -1,0 +1,72 @@
+.about {
+
+  &__advantage {
+    margin: 45px 0 110px;
+
+    &-text-container {
+      margin: 0 auto;
+      max-width: 850px;
+      text-align: center;
+    }
+  }
+  
+  &__info {
+
+    &-list {
+      justify-content: space-between;
+      margin-bottom: 120px;
+    }
+  }
+}
+
+.info-item {
+  position: relative;
+
+  &__caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+
+    h3 {
+      color: #fff;
+      text-transform: uppercase;
+      text-shadow: $text__shadow;
+      font-size: 4.3rem;
+      line-height: 0;
+    }
+  }
+}
+
+.advantage-article {
+  justify-content: space-between;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 35px;
+  padding: 0;
+  list-style: none;
+
+  &__item {
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.33rem;
+
+    &:not(:last-child):after {
+      display: inline-block;
+      margin: 0 20px;
+      width: 10px;
+      height: 2px;
+      background-color: black;
+      content: '';
+      vertical-align: middle;
+    }
+  }
+
+  &__link {
+    color: #000;
+  }
+}

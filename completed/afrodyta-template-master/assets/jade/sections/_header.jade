@@ -1,0 +1,27 @@
+header.page-header
+  .container
+    .page-header__wrap
+      .page-header__logo
+        .logo
+          a(href="#")
+            img(src="images/site-logo.png", alt="afrodyta")
+      nav.page-header__main-nav
+        ul.main-nav
+          //- +hamburger("spin")
+          li.main-nav__item
+            a.button--nav(href="#") About
+          li.main-nav__item
+            a.button--nav(href="#") Blog
+          li.main-nav__item
+            a.button--nav(href="#") Gallery
+          li.main-nav__item
+            a.button--nav(href="#") Contact
+    .page-header__banner
+      a(href="#").promo-block
+        +svguse("arrow_down")
+        | Enjoy the pleasure
+      h1.page-header__banner-title Free
+        br 
+        | template
+    
+    

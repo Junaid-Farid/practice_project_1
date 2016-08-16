@@ -1,0 +1,383 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 17, 2016, 7:44:52 PM
+    Author     : Junaid
+*/
+
+* {
+    font-family: 'Open Sans';
+}
+a{
+    text-decoration: none;
+}
+body {
+    background-color: #fff;
+}
+body img{
+    width: 100%;
+}
+/*====header section====*/
+header {
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 65px;
+}
+.logo {
+    font-weight: bold; 
+}
+.navbar-nav>li>a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0px;
+    margin: 14px 18px;
+} 
+.nav>li>a:focus, .nav>li>a:hover{
+    background: transparent;
+}
+.nav>li>a:after, .nav>li>a:after{
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0; 
+    margin-bottom: -5px;
+    margin-top: 5px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+.nav>li>a:hover:after, .nav>li>a:hover:after {
+    width: 100%;
+    background: black;
+}
+.navbar-toggle {
+    border-color: #000;
+}
+.navbar .navbar-toggle .icon-bar {
+    background-color: #000 !important;
+}
+/*==== end header section====*/
+
+/*====banner selider section====*/
+
+#slider_section { 
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.banner_text {
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    right: 28%;     
+}
+.banner_text h1 {    
+    font-weight: bold; 
+    font-size: 90px;
+    letter-spacing: 3px;
+}
+
+/*====end banner slider section====*/
+
+/*====content section====*/
+
+#content_section { 
+    margin-top: 60px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+} 
+/*#content_section img{
+    width: 100%;
+    max-width: 100%;
+}*/
+#content_section h2{
+    text-transform: uppercase; 
+    font-weight: bold;
+    font-size: 60px;
+    color: #000; 
+    margin-top: 0; 
+    padding: 6px 0;
+}
+#content_section p{
+    font-size: 15px;
+    color: #000;
+    line-height: 2.1;
+    padding: 5px 0;
+}
+#content_section a{ 
+    color: #000;
+    font-size: 20px;
+    font-weight: bold; 
+}
+#content_section img {
+    max-width: 100%;
+    width: 100%;
+}
+#content_section span {    
+    color: #000;
+    font-size: 20px;
+    font-weight: bold; 
+}
+.clear{
+    float: none;
+    clear: both;
+}
+#newsletter {
+    position: relative;
+}
+.newsletter_form { 
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    width: 100%;
+    text-align: center;
+}
+.center_div {
+    position: relative;
+    left: -50%;
+}
+#newsletter h3 {
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-shadow: 7px 1px 10px rgba(5, 5, 5, 0.45);
+}
+#newsletter button {
+    margin: 15px auto;
+    background-color: #fff;
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 26px;
+    text-transform: uppercase;
+    padding: 7px 31px;
+    text-decoration: none;
+    border: none;
+    text-align: center;
+    outline: none;
+    letter-spacing: 1px;
+}
+#newsletter .center_div button:hover{
+    box-shadow: 2px 6px 13px 3px rgba(0, 0, 0, 0.18), 2px 5px 17px 1px rgba(0, 0, 0, 0.15);    
+}
+#nav-list {
+    text-align: center;
+    margin: 30px;
+    padding-top: 5rem;
+} 
+#navigation ul
+{
+    margin: 0;
+    padding: 0;
+}
+
+#navigation ul li, #footer-navigation ul li
+{
+    list-style-type: none;
+    display: inline;
+}
+a:hover {
+    color: rgb(106, 184, 247);
+}
+#navigation ul > li > a ,#footer-navigation ul > li > a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#navigation li:before, #footer-navigation li:before {
+    display: inline-block;
+    width: 10px;
+    height: 2px;
+    background-color: black;
+    content: "   ";
+    vertical-align: middle;
+    margin: 0px 20px;
+}
+
+#navigation li:first-child:before, #footer-navigation li:first-child:before {
+    content: none;
+}
+#nav-list p{
+    text-align: center;
+    line-height: 2.1;
+    margin: 25px;
+}
+#categories{
+    width: 100%;
+    margin: 50px 0;
+}
+#categories .cat {
+    position: relative; 
+}
+#categories .cat h1{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-shadow: 7px 1px 10px rgba(5, 5, 5, 0.45);
+}
+#bottom-post {
+    width: 100%;
+    margin: 80px 0;
+}
+#bottom-post h1 {
+    text-align: right;
+    margin: 3px 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 2.1;
+}
+#bottom-post h2 {
+    text-align: right;
+    margin: 3px 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 2.1;
+}
+#bottom-post .description {
+    background-color: #f6f6f6;
+}
+#bottom-post p{
+    line-height: 2.1;
+    padding: 15px 20px;
+    text-align: left;
+}
+#bottom-post a {
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 20px;
+    text-align: left;
+}
+footer {
+    text-align: center;
+    padding: 30px 0px;
+}
+footer .footer-des {
+    padding: 15px 5px;
+}
+footer .social-icons {
+    text-align: center;
+    margin: 20px 0px;
+}
+footer .social-icons ul li {
+    list-style-type: none;
+    margin: 5px 10px;
+    display: inline-block;
+}
+/*====end content section====*/
+
+/*====media queries====*/
+@media screen and (max-width: 992px){
+    .banner_text {
+        top: 8%;
+        right: 24%;
+    }
+    .banner_text h1{
+        font-size: 7.2rem;
+    }
+}
+@media screen and (max-width: 768px){
+    .navbar-toggle{
+        margin-top: 18px;
+    }
+    .banner_text {
+        top: 5%;
+        right: 30%;
+    }
+    .banner_text h1{
+        font-size: 5.2rem;
+    }
+    .nav.navbar-nav {
+        text-align: right;
+        padding-right: 15px;
+    }
+    .newsletter_form {
+        top: 0;
+    }
+    #newsletter h3{
+        font-size: 35px;
+    }
+    #newsletter button{
+        margin: 6px auto;
+    }
+    #bottom-post h2, #bottom-post h1{
+        text-align: left;  
+    }
+    #content_section h2{
+        font-size: 35px;
+    }
+}
+@media screen and (max-width: 630px){
+    .banner_text {
+        top: 5%;
+        right: 32%;
+    }
+    .banner_text h1{
+        font-size: 4.2rem;
+    }
+    #newsletter h3{
+        margin-top: 5px;
+        margin-bottom: 5x;
+        font-size: 26px;
+    }
+    #footer-navigation{
+        display: none;
+    }
+    #content_section h2{
+        font-size: 30px;
+    }
+    #bottom-post h1{
+        line-height: 1.1;
+        font-size: 30px;
+    }
+    #bottom-post h2{
+        font-size: 27px;
+        line-height: 1.1;
+    }
+}
+@media screen and (max-width: 540px){
+    #navigation{
+        display: none;
+    }
+}
+@media screen and (max-width: 500px){
+    .banner_text {
+        top: 5%;
+        right: 21%;
+    }
+    .banner_text h1{
+        font-size: 4.2rem;
+    }
+    #newsletter h3{
+        display: none;
+    }
+    #content_section h2{
+        font-size: 25px;
+    }
+    #bottom-post h1{
+        font-size: 28px;
+    }
+
+}
+/*====end media queries====*/

@@ -1,0 +1,129 @@
+.page-content__articles {
+}
+
+.article {
+  position: relative;
+  z-index: 5;
+  justify-content: space-between;
+  margin-bottom: 85px;
+
+  &__image {
+    position: relative;
+
+    &-s {
+      max-width: 100%;
+      vertical-align: baseline;
+    }
+    
+    &--left {
+
+      .article__image-s  {
+        float: left;
+      }
+
+      .article__date {
+        left: 0;
+      }
+    }
+
+    &--right {
+
+      .article__image-s  {
+        float: right;
+      }
+
+      .article__date {
+        right: 0;
+      }
+    }
+
+    .promo-block {
+      right: -225px;
+      bottom: 220px;
+    }
+  }
+
+  &__content {
+    position: relative;
+
+    &-wrap {
+      margin-right: 50px;
+    }
+
+    &-decoration {
+      position: absolute;
+      z-index: -1;
+      background-color: #f6f6f6;
+
+      &--regular {
+        top: 127px;
+        left: -380px;
+        width: 900px;
+        height: 135px;
+      }
+
+      &--rotated {
+        bottom: -120px;
+        left: -80px;
+        width: 650px;
+        height: 245px;
+        transform: rotate(70deg);
+      }
+
+      &--big {
+        top: 90px;
+        left: -170px;
+        width: 600px;
+        height: 380px;
+      }
+    }
+
+    &-title {
+      margin-bottom: 25px;
+      text-transform: uppercase;
+      font-size: 3.3rem;
+      line-height: 1.2;
+
+      &--right {
+        text-align: right;
+      }
+
+      &--lower {
+        font-size: 2.5rem;
+      }
+
+      &--higher {
+        font-size: 4.3rem;
+      }
+    }
+
+    &-text {
+      position: relative;
+      margin-bottom: 25px;
+    }
+
+    &-link {
+      color: #000;
+      font-weight: bold;
+      font-size: 20px;
+    }
+  }
+
+  &__date {
+      position: absolute;
+      top: -37px;
+      font-weight: bold;
+      font-size: 25px;
+  }
+
+  &__column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 940px;
+  }
+}
+
+.page-content__articles .article__content-title.article__content-title--higher {
+  margin-bottom: 0;
+}

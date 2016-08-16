@@ -1,0 +1,32 @@
+.page-footer {
+  padding-bottom: 80px;
+
+  &__text-container  {
+    @extend .about__advantage-text-container;
+    margin-bottom: 40px;
+  }
+}
+
+.social-list {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  &__item {
+    margin: 8px;
+
+    .icon {
+      transition: all 250ms ease-in-out;
+
+      &__svg-sprite {
+        width: 38px;
+        height: 38px;
+      }
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+  }
+}

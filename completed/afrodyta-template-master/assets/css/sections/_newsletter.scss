@@ -1,0 +1,21 @@
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 260px;
+
+  background: {
+    position: center;
+    image: url('../images/sing-up-image.jpg');
+    size: cover;
+  }
+
+  &__title {
+    margin-bottom: 1.2rem;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: $text__shadow;
+    font-size: 3.1rem;
+  }
+}

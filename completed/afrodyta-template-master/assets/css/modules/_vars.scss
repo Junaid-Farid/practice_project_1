@@ -1,0 +1,32 @@
+$color__primary: $matblue;
+$color__primary--dark: darken($color__primary, 15%);
+$color__primary--light: lighten($color__primary, 15%);
+
+
+$text__color: #000;
+$text__color--primary: #000;
+$text__color--secondary: rgba(#444, .75);
+$text__color--link: $color__primary;
+$text__color--selection: $blizzardblue;
+$text__family--base: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$text__family--primary: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$text__shadow: 7px 1px 10px rgba(5, 5, 5, .45);
+
+
+$heading__color: $text__color--primary;
+$divider__color: #B6B6B6;
+$page-bg__color: #fff;
+
+
+
+$button__color: #fff;
+$button__color--primary: $color__primary--dark;
+$button__text-color: #000;
+$button__text-color--primary: $yellow;
+
+
+$shadow__depth--lighter: 0 5px 11px 0 rgba(0,0,0, .18),0 4px 15px 0 rgba(0,0,0, .15);
+$shadow__depth--light: 0 2px 5px 0 rgba(0,0,0, .16),0 2px 10px 0 rgba(0,0,0, .12);
+$shadow__depth: 0 8px 17px 0 rgba(0,0,0, .2),0 6px 20px 0 rgba(0,0,0, .19);
+$shadow__depth--high: 0 12px 15px 0 rgba(0,0,0, .24),0 17px 50px 0 rgba(0,0,0, .19);
+$shadow__depth--higher: 0 16px 28px 0 rgba(0,0,0, .22),0 25px 55px 0 rgba(0,0,0, .21);
